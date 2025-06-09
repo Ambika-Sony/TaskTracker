@@ -1,0 +1,66 @@
+/* src/app/tasks/tasks.component.css */
+div {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+input[type="text"],
+input[type="date"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #e9ecef;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  margin-left: 10px;
+  background-color: #6c757d; /* Different color for action buttons */
+}
+
+li button:hover {
+  background-color: #5a6268;
+}
+
+li button:last-child {
+  background-color: #dc3545; /* Red for delete */
+}
+
+li button:last-child:hover {
+  background-color: #c82333;
+}
+
+span {
+  font-weight: bold;
+  margin-left: 10px;
+}
